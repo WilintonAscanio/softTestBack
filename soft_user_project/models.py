@@ -7,3 +7,4 @@ class SoftUserProject(models.Model):
     email = models.CharField(max_length=200)
     date = models.CharField(max_length=200)
     created_at = models.DateTimeField(auto_now_add=True)
+    is_active = models.BooleanField(default=True)

@@ -5,6 +5,6 @@ from .models import SoftUserProject
 class SoftUserProjectSerializer(serializers.ModelSerializer):
     class Meta: 
          model = SoftUserProject
-         fields = ('id', 'name', 'email', 'date', 'created_at' )
+         fields = ('id', 'name', 'email', 'date', 'created_at', 'is_active' )
          read_only_fields = ('created_at',)
    
