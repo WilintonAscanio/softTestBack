@@ -7,7 +7,7 @@ Django, Djangorestframework
 
 # Instalación
 1. Clona el repositorio : 
-git clone https://github.com/tu_usuario/tu_proyecto.git
+git clone https://github.com/WilintonAscanio/softTestBack
 
 2. Accede al directorio del proyecto : 
 cd soft_back
